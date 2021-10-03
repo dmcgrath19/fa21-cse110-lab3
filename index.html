@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Lab2 Part 1</title>
+      <meta name="Meeting Minutes" content="notes recorded during meeting">
+      <link rel="web_icon" type="image/ico" href="web_icon.ico"/>
+   </head>
+   <body>
+      <main>
+         <header>
+            <h1>First Meeting</h1>
+            <h3>Team: Bits Please</h3>
+            <h5>
+               Date: 3 October 2021
+               <hr>
+            </h5>
+         </header>
+         <nav>
+            <a href="#agenda">Agenda</a>
+            <a href="#last_meeting">Last meeting</a>
+            <a href="#this_meeting">This meeting</a>
+            <a href="#diagrams">Diagrams</a>
+            <a href="#recordings">Recordings</a>
+            <a href="#misc">Miscellaneous</a>
+            <hr>
+         </nav>
+         <section id ="agenda">
+            <h3>Agenda</h3>
+            <ol>
+               <li>Review</li>
+               <li>Look at bugs</li>
+               <li>Tying backend to Frontend</li>
+               <li>Questions/comments</li>
+               <li>Final notes</li>
+            </ol>
+         </section>
+         <hr>
+         <section id = "last_meeting">
+            <h4>Review</h4>
+            <details>
+               <summary>Bugs from last week come from lack of <em>unit tests</em></summary>
+               <p>There were large errors in the display coming from a lack of unit tests done on the backend. <br>This needs to be addressed as the front end needs to use the data.</p>
+            </details>
+         </section>
+         <hr>
+         <section id = "this_meeting">
+            <h2>This Meeting</h2>
+            <div>
+               <h5>Bugs</h5>
+               <ul>
+                  <li>More Bugs</li>
+               </ul>
+            </div>
+            <div>
+               <h5>Backend to Frontend</h5>
+            </div>
+         </section>
+         </section>
+         <hr>
+         <section id= "diagrams">
+            <h3>Diagrams</h3>
+            <h6>Use case diagram</h6>
+            <img src="use-case.png" alt="Use case diagram"/>
+         </section>
+         <hr>
+         <section id="recordings">
+            <h4>Recordings</h4>
+            <video controls width="250">
+               <source src="video.mp4"
+                  type="video/mp4">
+               Sorry, your browser doesn't support embedded videos.
+            </video>
+            <audio controls>
+               <source src="audio.mp3" type="audio/mpeg">
+               Your browser does not support the audio element.
+            </audio>
+         </section>
+         <hr>
+         <section id= "misc">
+            <h4>Miscellaneous</h4>
+            <p><strong>Submit</strong> meeting feedback for next time below</p>
+            <fieldset>
+               <h5>What team name do you vote for?</h5>
+               <label for="movie_choices">Choices:</label>
+               <input list="favorite_movies" id="movie_choices">
+               <datalist id="favorite_movies">
+                  <option value="The Dining Philosophers">
+                  <option value="byteme">
+                  <option value="Bits Please">
+               </datalist>
+               <h5>How did you feel the meeting went?</h5>
+               <select name="outcome" id="outcome">
+               <option value="well">well</option>
+               <option value="fine">fine</option>
+               <option value="bad">bad</option>
+               </select>
+               <form action="/action_page.php">
+                  <span>
+                     <li>Looking at the work you planned for this week, did you <b>finish</b> what you set out to?
+                  </span>
+                  <label for="radi">yes:</label>
+                  <input type="radio" value="radi">
+                  <label for="radi">no:</label>
+                  <input type="radio" value="radi">
+                  <li>
+                     <br>What type of work will you have to complete for the <i>upcoming</i> week?</span>
+                     <label for="check">Add unit tests:</label>
+                     <input type="checkbox" id="check">
+                     <label for="check">Work with the datasets:</label>
+                     <input type="checkbox" id="check">
+                     <label for="check">Cleanup code:</label>
+                     <input type="checkbox" id="check">
+                     <br>
+                     <label for="fname"><br>Name:</label>
+                     <input type="text" id="fname" name="fname"><br><br>
+                     <input type="date"value="date">
+                     <input type="submit" value="Submit">
+               </form>
+            </fieldset>
+         </section>
+         <footer>
+         <textarea id="Author" name="Creator" rows="2" cols="40">
+         Delia McGrath A17242924
+         </textarea>
+         </footer>
+      </main>
+   </body>
+</html>
