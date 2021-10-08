@@ -23,7 +23,7 @@ header+footer{
 h1{
     /*make the biggest heading massive*/
     font-size: 3em;
-    padding-bottom: 1em;
+    padding-bottom: 3em;
     height: 2cm;
     width: 2cm;
     max-width: 20cm;
@@ -118,7 +118,7 @@ of the page so it attracts more attention*/
     background-color: rgb(89, 6, 120);
     padding: 20px;       
     justify-content:center;
-    width:auto;
+    width:100px;
 }
 .flexbox {
     /*organise the recordings horizontally, but wrapping
