@@ -5,7 +5,7 @@
     src: URL('font.ttf') format('truetype');
   }
 header.h1{
-    padding-bottom: 50%;
+    padding-bottom: 80%;
 }
   /*setting the body of the code*/
 body {
@@ -115,10 +115,10 @@ of the page so it attracts more attention*/
 #diagrams{
     text-decoration: underline;
     display: grid;
-    grid-template-columns: repeat(1, 333px [col-start]);
+    grid-template-columns: repeat(1, 3px [col-start]);
     grid-gap: 20px;      
     background-color: rgb(89, 6, 120);
-    padding: 20px;       
+    padding: 1px;       
     justify-content:center;
     width:100px;
 }
