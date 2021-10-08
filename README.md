@@ -1,5 +1,5 @@
-# CSE110 - Lab 2
+# CSE110 - Lab 3
 
-## [Part 1](https://dmcgrath19.github.io/Lab2/)
+## [Part 1](https://github.com/dmcgrath19/fa21-cse110-lab3/blob/master/%20standup.md)
 
-## [Part 2](https://github.com/dmcgrath19/Lab2/blob/master/part2.txt)
+## [Part 2](https://dmcgrath19.github.io/fa21-cse110-lab3/)
