@@ -4,7 +4,9 @@
     font-family: special_font;
     src: URL('font.ttf') format('truetype');
   }
-
+header.h1{
+    padding-bottom: 50%;
+}
   /*setting the body of the code*/
 body {
     color: rgb(206, 116, 0);
@@ -126,7 +128,7 @@ of the page so it attracts more attention*/
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     background-color: rgb(24, 172, 49);
     flex-direction: row;
     padding-top: 25px;
