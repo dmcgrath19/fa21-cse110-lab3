@@ -54,7 +54,8 @@ nav{
     max-height: 4cm;
 }
 #last_meeting{
-    padding: 15px 10px;
+    position:relative;
+    padding: 5px 10px;
 }
 
 #this_meeting{
@@ -62,6 +63,7 @@ nav{
 }
 
 #misc{
+    position:relative;
     margin: 25px 50px 75px 100px;
 }
 #diagrams{
