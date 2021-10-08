@@ -115,15 +115,20 @@ of the page so it attracts more attention*/
     position:relative;
     margin: 25px 50px 75px 10px;
 }
-#diagrams{
+.diagrams{
     text-decoration: underline;
     display: grid;
-    grid-template-columns: repeat(2, 3px [col-start]);
+    grid-template-columns: repeat(4, 250px [col-start]);
     grid-gap: 20px;      
     background-color: rgb(89, 6, 120);
     padding: 1px;       
     justify-content:center;
     width:auto;
+}
+
+.diagrams>img{
+    border-width: 0.5mm;
+    border-radius: 15px;
 }
 .flexbox {
     /*organise the recordings horizontally, but wrapping
