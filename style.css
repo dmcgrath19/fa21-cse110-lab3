@@ -4,8 +4,17 @@
     font-family: special_font;
     src: URL('font.ttf') format('truetype');
   }
+
+/*these headers will apply to headers throughout the code*/
+h3,h5{
+    font-family: special_font;
+    color:darkgreen;
+}
 header.h1{
     padding-bottom: 2em;
+}
+#header{
+    text-align:justify;
 }
   /*setting the body of the code*/
 body {
@@ -36,11 +45,7 @@ h2{
     font-family: special_font;
     color: rgb(67, 69, 167);
 }
-/*these headers will apply to headers throughout the code*/
-h3,h5{
-    font-family: special_font;
-    color:darkgreen;
-}
+
 h4{
     text-align: left;
     text-decoration:solid;
@@ -86,7 +91,7 @@ of the page so it attracts more attention*/
     padding-right:3cm;
     padding-left: 2cm;
     color: rgb(6, 207, 16);
-    text-align: justify;
+    text-align: center;
 }
 .container_1{
     height: 2cm;
@@ -95,8 +100,8 @@ of the page so it attracts more attention*/
     max-height: 4cm;
 }
 #last_meeting{
-    display: inline;
-    position:relative;
+    display: center;
+    position:sticky;
     padding: 5px 10px;
 }
 
@@ -123,7 +128,7 @@ of the page so it attracts more attention*/
 .flexbox {
     /*organise the recordings horizontally, but wrapping
     for display to make sure they look nice on page*/
-    display: flex;
+    display:flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: left;
