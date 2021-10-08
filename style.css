@@ -7,8 +7,12 @@ body {
     color: rgb(206, 116, 0);
     background-color: #000;
     border-radius: 10%  10%;
+    width: 100vw;
+    height: 100vh;
 }
 h1{
+    font-size: 3em;
+    padding-bottom: 1em;
     height: 2cm;
     width: 2cm;
     max-width: 20cm;
