@@ -6,42 +6,56 @@
 body {
     background-color: rgb(206, 116, 0);
     color: #000;
+    border-radius: 10%  10%;
 }
 h1{
     color: hsl(0, 0%, 0%);
     font-family: special_font;
 }
 h2{
+    font-family: special_font;
     color: rgb(67, 69, 167);
 }
 h3{
+    font-family: special_font;
     color:darkgreen;
 }
 h5{
     color: #3c05a8;
 }
 h6{
+    font-family: special_font;
     color: rgb(57, 107, 53);
+}
+nav{
+    margin-left: 50px;
 }
 
 #agenda{
+    border: 0.3rem solid;
+    border-style: groove;
+    border-color: rgb(119, 48, 0);
+    border-width: 0.5cm;
+    border-radius: 30px;
+    padding-top: 0cm;
+    padding-right:3cm;
+    padding-left: 2cm;
     color: #000;
     text-align: justify;
 }
 
 #last_meeting{
-
+    padding: 15px 10px;
 }
 
 #this_meeting{
-
+    margin:auto;
 }
 
 #misc{
-
+    margin: 25px 50px 75px 100px;
 }
 #diagrams{
-
 }
 
 #recordings{
