@@ -143,7 +143,7 @@ of the page so it attracts more attention*/
 /*set a font for the webpage -- will apply it universally*/
 *{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 5vh;
+    font-size: 3vh;
 }
 
 /*help make the input more unique by styling it*/
