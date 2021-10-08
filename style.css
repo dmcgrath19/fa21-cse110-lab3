@@ -118,7 +118,7 @@ of the page so it attracts more attention*/
 #diagrams{
     text-decoration: underline;
     display: grid;
-    grid-template-columns: repeat(1, 3px [col-start]);
+    grid-template-columns: repeat(2, 3px [col-start]);
     grid-gap: 20px;      
     background-color: rgb(89, 6, 120);
     padding: 1px;       
@@ -131,7 +131,7 @@ of the page so it attracts more attention*/
     display:flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     background-color: rgb(24, 172, 49);
     flex-direction: row;
     padding-top: 25px;
