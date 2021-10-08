@@ -5,25 +5,35 @@
     src: URL('font.ttf') format('truetype');
   }
 
+/*these headers will apply to headers throughout the code*/
+h3,h5{
+    font-family: special_font;
+    color:darkgreen;
+}
+header.h1{
+    padding-bottom: 1.5ex;
+}
+#header{
+    text-align:justify;
+}
   /*setting the body of the code*/
 body {
     color: rgb(206, 116, 0);
     background-color: #000;
     border-radius: 10%  10%;
     /*set a relative view for width & height*/
-    width: 100vw;
-    height: 100vh;
 }
 
 /*set adjustments for headers+footers*/
 header+footer{
+    display: inline;
     font-size:2cm;
 }
 
 h1{
     /*make the biggest heading massive*/
     font-size: 3em;
-    padding-bottom: 1em;
+    padding-bottom: 3em;
     height: 2cm;
     width: 2cm;
     max-width: 20cm;
@@ -36,11 +46,7 @@ h2{
     font-family: special_font;
     color: rgb(67, 69, 167);
 }
-/*these headers will apply to headers throughout the code*/
-h3,h5{
-    font-family: special_font;
-    color:darkgreen;
-}
+
 h4{
     text-align: left;
     text-decoration:solid;
@@ -55,7 +61,7 @@ h6 nav{
 h1 > h2{
     padding-right: 1cm;
 }
-feedback~button{
+input~button{
     padding-bottom: 1cm;
 }
 
@@ -86,7 +92,7 @@ of the page so it attracts more attention*/
     padding-right:3cm;
     padding-left: 2cm;
     color: rgb(6, 207, 16);
-    text-align: justify;
+    text-align: center;
 }
 .container_1{
     height: 2cm;
@@ -95,8 +101,8 @@ of the page so it attracts more attention*/
     max-height: 4cm;
 }
 #last_meeting{
-    display: inline;
-    position:relative;
+    display: center;
+    position:sticky;
     padding: 5px 10px;
 }
 
@@ -110,20 +116,26 @@ of the page so it attracts more attention*/
     position:relative;
     margin: 25px 50px 75px 10px;
 }
-#diagrams{
+.diagrams{
     text-decoration: underline;
     display: grid;
-    grid-template-columns: repeat(1, 333px [col-start]);
+    grid-template-columns: repeat(4, 220px [col-start]);
     grid-gap: 20px;      
     background-color: rgb(89, 6, 120);
-    padding: 20px;       
+    padding: 1px;       
     justify-content:center;
     width:auto;
 }
+
+.diagrams>img{
+    border-width: 0.5mm;
+    border-radius: 10px;
+}
+
 .flexbox {
     /*organise the recordings horizontally, but wrapping
     for display to make sure they look nice on page*/
-    display: flex;
+    display:flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
@@ -131,6 +143,9 @@ of the page so it attracts more attention*/
     flex-direction: row;
     padding-top: 25px;
     padding-bottom: 5px;
+}
+.current{
+    text-align: center;
 }
 
 /*make the page displayable for more users -- more accessible*/
@@ -143,6 +158,7 @@ of the page so it attracts more attention*/
 /*set a font for the webpage -- will apply it universally*/
 *{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vh;
 }
 
 /*help make the input more unique by styling it*/
