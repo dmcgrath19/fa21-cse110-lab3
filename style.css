@@ -75,18 +75,21 @@ a:link{
 }
 
 #this_meeting{
+    display: inline-grid; 
     margin:auto;
 }
 
 #misc{
+    display: inline-block;
     position:relative;
-    margin: 25px 50px 75px 100px;
+    margin: 25px 50px 75px 10px;
 }
 #diagrams{
     text-decoration: underline;
 }
 
 #recordings{
+    display: inline;
 
 }
 @media only screen and (max-width: 555px) {
