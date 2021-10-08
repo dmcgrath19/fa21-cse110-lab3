@@ -4,6 +4,7 @@
   }
   
 body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(206, 116, 0);
     background-color: #000;
     border-radius: 10%  10%;
@@ -74,6 +75,7 @@ a:link{
     max-height: 4cm;
 }
 #last_meeting{
+    display: inline;
     position:relative;
     padding: 5px 10px;
 }
@@ -90,11 +92,23 @@ a:link{
 }
 #diagrams{
     text-decoration: underline;
+    display: grid;
+    grid-template-columns: repeat(1, 333px [col-start]);
+    grid-gap: 20px;      
+    background-color: rgb(89, 6, 120);
+    padding: 20px;       
+    justify-content:center;
+    width:auto;
 }
-
-#recordings{
-    display: inline;
-
+.flexbox {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(24, 172, 49);
+    flex-direction: row;
+    padding-top: 25px;
+    padding-bottom: 5px;
 }
 @media only screen and (max-width: 555px) {
     body {
