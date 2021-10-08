@@ -60,7 +60,7 @@ h6 nav{
 h1 > h2{
     padding-right: 1cm;
 }
-feedback~button{
+input~button{
     padding-bottom: 1cm;
 }
 
@@ -130,6 +130,7 @@ of the page so it attracts more attention*/
     border-width: 0.5mm;
     border-radius: 10px;
 }
+
 .flexbox {
     /*organise the recordings horizontally, but wrapping
     for display to make sure they look nice on page*/
@@ -152,8 +153,6 @@ of the page so it attracts more attention*/
       background-color: rgb(0, 0, 0);
     }
 }
-
-
 
 /*set a font for the webpage -- will apply it universally*/
 *{
