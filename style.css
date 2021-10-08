@@ -5,7 +5,7 @@
     src: URL('font.ttf') format('truetype');
   }
 header.h1{
-    padding-bottom: 50%;
+    padding-bottom: 2em;
 }
   /*setting the body of the code*/
 body {
@@ -13,8 +13,6 @@ body {
     background-color: #000;
     border-radius: 10%  10%;
     /*set a relative view for width & height*/
-    width: 100vw;
-    height: 100vh;
 }
 
 /*set adjustments for headers+footers*/
@@ -120,7 +118,7 @@ of the page so it attracts more attention*/
     background-color: rgb(89, 6, 120);
     padding: 1px;       
     justify-content:center;
-    width:100px;
+    width:auto;
 }
 .flexbox {
     /*organise the recordings horizontally, but wrapping
