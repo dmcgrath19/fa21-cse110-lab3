@@ -4,13 +4,17 @@
   }
   
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(206, 116, 0);
     background-color: #000;
     border-radius: 10%  10%;
     width: 100vw;
     height: 100vh;
 }
+
+header+footer{
+    font-size:1in;
+}
+
 h1{
     font-size: 3em;
     padding-bottom: 1em;
@@ -25,26 +29,28 @@ h2{
     font-family: special_font;
     color: rgb(67, 69, 167);
 }
-h3{
+h3,h5{
     font-family: special_font;
     color:darkgreen;
 }
 h4{
     text-align: left;
     text-decoration:solid;
-
-}
-h5{
     color: #3c05a8;
 }
-h6{
+h6 nav{
     font-family: special_font;
     color: rgb(57, 107, 53);
 }
-nav{
-    margin-left: 50px;
+h1 > h2{
+    padding-right: 1cm;
 }
-
+feedback  ~footer{
+    padding-bottom: 1cm;
+}
+h5.container1{
+    padding-top: 1cm;
+}
 a:hover{
     color:rgb(41, 228, 17);
 }
@@ -68,7 +74,7 @@ a:link{
     color: rgb(6, 207, 16);
     text-align: justify;
 }
-.container-header audio{
+.container_1{
     height: 2cm;
     width: 10cm;
     max-width: 20cm;
@@ -114,4 +120,16 @@ a:link{
     body {
       background-color: rgb(0, 0, 0);
     }
+}
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.feedback input[type=text]:focus {
+    background-color: rgb(97, 3, 3);
+    padding: 15px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.feedback button:hover{
+    box-shadow: rgb(37, 245, 18);
 }
