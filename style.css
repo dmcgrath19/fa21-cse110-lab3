@@ -1,8 +1,15 @@
+@font-face {
+    font-family: special_font;
+    src: URL('font.ttf') format('truetype');
+  }
+  
 body {
-    background-color: rgb(219, 141, 68);
+    background-color: rgb(206, 116, 0);
+    color: #000;
 }
 h1{
-    color: hsl(33, 63%, 14%);
+    color: hsl(0, 0%, 0%);
+    font-family: special_font;
 }
 h2{
     color: rgb(67, 69, 167);
@@ -15,4 +22,28 @@ h5{
 }
 h6{
     color: rgb(57, 107, 53);
+}
+
+#agenda{
+    color: #000;
+    text-align: justify;
+}
+
+#last_meeting{
+
+}
+
+#this_meeting{
+
+}
+
+#misc{
+
+}
+#diagrams{
+
+}
+
+#recordings{
+
 }
