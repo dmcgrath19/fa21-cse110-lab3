@@ -11,7 +11,7 @@ h3,h5{
     color:darkgreen;
 }
 header.h1{
-    padding-bottom: 1.5em;
+    padding-bottom: 1.5ex;
 }
 #header{
     text-align:justify;
@@ -26,6 +26,7 @@ body {
 
 /*set adjustments for headers+footers*/
 header+footer{
+    display: inline;
     font-size:2cm;
 }
 
