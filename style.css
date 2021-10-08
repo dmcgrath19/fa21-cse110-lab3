@@ -9,6 +9,10 @@ body {
     border-radius: 10%  10%;
 }
 h1{
+    height: 2cm;
+    width: 2cm;
+    max-width: 20cm;
+    max-height: 4cm;
     color: hsl(0, 0%, 0%);
     font-family: special_font;
 }
@@ -43,7 +47,12 @@ nav{
     color: #000;
     text-align: justify;
 }
-
+.container-header audio{
+    height: 2cm;
+    width: 10cm;
+    max-width: 20cm;
+    max-height: 4cm;
+}
 #last_meeting{
     padding: 15px 10px;
 }
