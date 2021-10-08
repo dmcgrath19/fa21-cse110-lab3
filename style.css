@@ -1,3 +1,18 @@
 body {
-    background-color: rgb(37, 3, 3);
+    background-color: rgb(219, 141, 68);
+}
+h1{
+    color: hsl(33, 63%, 14%);
+}
+h2{
+    color: rgb(67, 69, 167);
+}
+h3{
+    color:darkgreen;
+}
+h5{
+    color: #3c05a8;
+}
+h6{
+    color: rgb(57, 107, 53);
 }
