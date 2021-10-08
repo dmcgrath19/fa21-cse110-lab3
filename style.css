@@ -24,6 +24,11 @@ h3{
     font-family: special_font;
     color:darkgreen;
 }
+h4{
+    text-align: left;
+    text-decoration:solid;
+
+}
 h5{
     color: #3c05a8;
 }
@@ -36,6 +41,7 @@ nav{
 }
 
 #agenda{
+
     border: 0.3rem solid;
     border-style: groove;
     border-color: rgb(119, 48, 0);
@@ -67,6 +73,7 @@ nav{
     margin: 25px 50px 75px 100px;
 }
 #diagrams{
+    text-decoration: underline;
 }
 
 #recordings{
