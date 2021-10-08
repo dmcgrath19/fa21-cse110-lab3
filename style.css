@@ -118,7 +118,7 @@ of the page so it attracts more attention*/
 .diagrams{
     text-decoration: underline;
     display: grid;
-    grid-template-columns: repeat(4, 250px [col-start]);
+    grid-template-columns: repeat(4, 220px [col-start]);
     grid-gap: 20px;      
     background-color: rgb(89, 6, 120);
     padding: 1px;       
@@ -128,7 +128,7 @@ of the page so it attracts more attention*/
 
 .diagrams>img{
     border-width: 0.5mm;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 .flexbox {
     /*organise the recordings horizontally, but wrapping
